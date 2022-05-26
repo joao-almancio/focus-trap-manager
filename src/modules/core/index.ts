@@ -1,1 +1,1 @@
-export const coreModules = {}
+export const coreModules = {};

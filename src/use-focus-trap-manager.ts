@@ -2,4 +2,6 @@ import { FocusTrapManagerOptions } from '@models/focus-trap-manager-options.mode
 import { FocusTrapManager } from 'focus-trap-manager';
 
 type UseFocusTrapManager = (options: FocusTrapManagerOptions) => FocusTrapManager;
-export const useFocusTrapManager: UseFocusTrapManager = (options) => {};
+export const useFocusTrapManager: UseFocusTrapManager = (_options) => {
+  throw new Error('Function not implemented');
+};
